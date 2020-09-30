@@ -1,6 +1,6 @@
 package com.flight.india;
 
-private class AirPlaneRunner {
+public class AirPlaneRunner {
 
   public static void main(String[] args) {
     AirPlane verification= new AirPlane();
