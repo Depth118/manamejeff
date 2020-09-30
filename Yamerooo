@@ -1,0 +1,21 @@
+package com.flight.india;
+
+private class AirPlaneRunner {
+
+  public static void main(String[] args) {
+    AirPlane verification= new AirPlane();
+    AirPlane boarding = new AirPlane(10);
+    AirPlane takeoff = new AirPlane();
+    
+    verification.passenger();
+    boarding.initIntake(50);
+    boarding.passenger();
+    boarding.intakemore(5);
+    boarding.passenger();
+    takeoff.setSpeed(500);
+    takeoff.passenger();
+    takeoff.increaseSpeed(200);
+
+  }
+
+}
